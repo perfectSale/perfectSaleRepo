@@ -37,7 +37,7 @@ public class Global extends GlobalSettings  {
 	    @Override
 	   public Promise<Result> onError(Http.RequestHeader request, java.lang.Throwable t){
 		   Logger.info("onError");
-		   return Promise.<Result>pure(notFound(
+		   return Promise.<Result>pure(internalServerError(
 		             views.html.pageNotFound.render()
 		         ));
 		   
