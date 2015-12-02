@@ -1,4 +1,5 @@
-This is your new Play application
-=================================
+This is a classic CRUD application, backed by a JDBC database. It demonstrates:
 
-This file will be packaged with your application, when using `activator dist`.
+- Accessing a JDBC database, using Ebean.
+- Achieving, table pagination and CRUD forms.
+- Integrating with a CSS framework (Twitter Bootstrap ).

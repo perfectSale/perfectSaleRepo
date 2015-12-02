@@ -1,20 +1,28 @@
-name := """perfectSale"""
+import sbt.Keys._
+
+name := "PlayStartApp"
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayJava)
-
-scalaVersion := "2.11.6"
+scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq(
-  javaJdbc,
+  jdbc,
+  javaEbean,
   cache,
-  javaWs
+  "org.mindrot" % "jbcrypt" % "0.3m",
+  "com.typesafe" %% "play-plugins-mailer" % "2.2.0",
+  filters
 )
 
-// Play provides two styles of routers, one expects its actions to be injected, the
-// other, legacy style, accesses its actions statically.
-routesGenerator := InjectedRoutesGenerator
-EclipseKeys.preTasks := Seq(compile in Compile)
+resolvers ++= Seq(
+    "Apache" at "http://repo1.maven.org/maven2/",
+    "jBCrypt Repository" at "http://repo1.maven.org/maven2/org/",
+    "Sonatype OSS Snasphots" at "http://oss.sonatype.org/content/repositories/snapshots"
+)
+
+
+lazy val root = (project in file(".")).enablePlugins(play.PlayJava)
+
 
 fork in run := true

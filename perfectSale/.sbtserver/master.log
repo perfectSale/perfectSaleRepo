@@ -1,0 +1,406 @@
+New log file opened at Wed Dec 02 19:23:58 IST 2015 by 12600@ws-fadih-7
+jvm 12600@ws-fadih-7
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.40-b25
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=C:\onlinePerfectSale\perfectSaleRepo\perfectSale
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory C:\onlinePerfectSale\perfectSaleRepo\perfectSale\project
+[Loading] Found non-root projects 
+[Loading] Done in C:\onlinePerfectSale\perfectSaleRepo\perfectSale\project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in C:\onlinePerfectSale\perfectSaleRepo\perfectSale\project, returning: (perfectsale-build)
+Loading project definition from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@293c2d52, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory C:\onlinePerfectSale\perfectSaleRepo\perfectSale
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.gzip.SbtGzip),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.gzip.SbtGzip))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.PlayJava,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.jse.SbtJsTask,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.webdriver.SbtWebDriver,com.typesafe.sbt.jshint.SbtJSHint,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.gzip.SbtGzip,com.typesafe.sbt.digest.SbtDigest,play.sbt.forkrun.PlayForkRun)
+sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb) not found List(play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest) not found List(play.PlayJava, play.Play, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask) not found List(play.PlayJava, play.Play, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin) not found List(play.PlayJava, play.Play, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play) not found List(play.PlayJava, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.gzip.SbtGzip, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in C:\onlinePerfectSale\perfectSaleRepo\perfectSale, returning: (root)
+Set current project to PlayStartApp (in build file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/)
+Reapplying settings...
+Set current project to PlayStartApp (in build file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@13a47023, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java, C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java)
+
+Recompiling all 10 sources: invalidated sources (10) exceeded 50.0% of all sources
+Read from stdout: Compiling 2 Scala sources and 8 Java sources to C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes...
+Compiling 2 Scala sources and 8 Java sources to C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes...
+Getting compiler-interface from component compiler for Scala 2.10.4
+Getting compiler-interface from component compiler for Scala 2.10.4
+Running cached compiler 399c11e, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes;C:\Users\fadih.NEXPERIENCE\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+	-classpath
+	C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes;C:\dev\typesafe-activator\repository\com.typesafe.play\twirl-api_2.10\1.0.2\jars\twirl-api_2.10.jar;C:\dev\typesafe-activator\repository\org.apache.commons\commons-lang3\3.1\jars\commons-lang3.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play_2.10\jars\play_2.10-2.3.9.jar;C:\dev\typesafe-activator\repository\com.typesafe.play\build-link\2.3.9\jars\build-link.jar;C:\dev\typesafe-activator\repository\com.typesafe.play\play-exceptions\2.3.9\jars\play-exceptions.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-iteratees_2.10\jars\play-iteratees_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.scala-stm\scala-stm_2.10\jars\scala-stm_2.10-0.7.jar;C:\dev\typesafe-activator\repository\com.typesafe\config\1.2.1\bundles\config.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-json_2.10\jars\play-json_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-functional_2.10\jars\play-functional_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-datacommons_2.10\jars\play-datacommons_2.10-2.3.9.jar;C:\dev\typesafe-activator\repository\joda-time\joda-time\2.3\jars\joda-time.jar;C:\dev\typesafe-activator\repository\org.joda\joda-convert\1.6\jars\joda-convert.jar;C:\dev\typesafe-activator\repository\com.fasterxml.jackson.core\jackson-annotations\2.3.2\bundles\jackson-annotations.jar;C:\dev\typesafe-activator\repository\com.fasterxml.jackson.core\jackson-core\2.3.2\bundles\jackson-core.jar;C:\dev\typesafe-activator\repository\com.fasterxml.jackson.core\jackson-databind\2.3.2\bundles\jackson-databind.jar;C:\Users\fadih.NEXPERIENCE\.sbt\boot\scala-2.10.4\lib\scala-reflect.jar;C:\dev\typesafe-activator\repository\io.netty\netty\3.9.8.Final\bundles\netty.jar;C:\dev\typesafe-activator\repository\com.typesafe.netty\netty-http-pipelining\1.1.2\jars\netty-http-pipelining.jar;C:\dev\typesafe-activator\repository\org.slf4j\slf4j-api\1.7.6\jars\slf4j-api.jar;C:\dev\typesafe-activator\repository\org.slf4j\jul-to-slf4j\1.7.6\jars\jul-to-slf4j.jar;C:\dev\typesafe-activator\repository\org.slf4j\jcl-over-slf4j\1.7.6\jars\jcl-over-slf4j.jar;C:\dev\typesafe-activator\repository\ch.qos.logback\logback-core\1.1.1\jars\logback-core.jar;C:\dev\typesafe-activator\repository\ch.qos.logback\logback-classic\1.1.1\jars\logback-classic.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.4.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.4.jar;C:\dev\typesafe-activator\repository\commons-codec\commons-codec\1.9\jars\commons-codec.jar;C:\dev\typesafe-activator\repository\xerces\xercesImpl\2.11.0\jars\xercesImpl.jar;C:\dev\typesafe-activator\repository\xml-apis\xml-apis\1.4.01\jars\xml-apis.jar;C:\dev\typesafe-activator\repository\javax.transaction\jta\1.1\jars\jta.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-java_2.10\jars\play-java_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.yaml\snakeyaml\bundles\snakeyaml-1.13.jar;C:\dev\typesafe-activator\repository\org.hibernate\hibernate-validator\5.0.3.Final\jars\hibernate-validator.jar;C:\dev\typesafe-activator\repository\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar;C:\dev\typesafe-activator\repository\com.fasterxml\classmate\1.0.0\bundles\classmate.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.jboss.logging\jboss-logging\jars\jboss-logging-3.2.0.Final.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.springframework\spring-context\jars\spring-context-4.0.3.RELEASE.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.springframework\spring-core\jars\spring-core-4.0.3.RELEASE.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.springframework\spring-beans\jars\spring-beans-4.0.3.RELEASE.jar;C:\dev\typesafe-activator\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.reflections\reflections\jars\reflections-0.9.8.jar;C:\dev\typesafe-activator\repository\com.google.guava\guava\16.0.1\bundles\guava.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar;C:\dev\typesafe-activator\repository\com.google.code.findbugs\jsr305\2.0.3\jars\jsr305.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.apache.tomcat\tomcat-servlet-api\jars\tomcat-servlet-api-8.0.5.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-jdbc_2.10\jars\play-jdbc_2.10-2.3.9.jar;C:\dev\typesafe-activator\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;C:\dev\typesafe-activator\repository\com.h2database\h2\1.3.175\jars\h2.jar;C:\dev\typesafe-activator\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-java-ebean_2.10\jars\play-java-ebean_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.10\jars\play-java-jdbc_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.avaje.ebeanorm\avaje-ebeanorm\jars\avaje-ebeanorm-3.3.4.jar;C:\dev\typesafe-activator\repository\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.2\jars\avaje-ebeanorm-agent.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\jars\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\play-cache_2.10\jars\play-cache_2.10-2.3.9.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\net.sf.ehcache\ehcache-core\jars\ehcache-core-2.6.8.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.mindrot\jbcrypt\jars\jbcrypt-0.3m.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe\play-plugins-mailer_2.10\jars\play-plugins-mailer_2.10-2.2.0.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\org.apache.commons\commons-email\jars\commons-email-1.2.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\javax.mail\mail\jars\mail-1.4.1.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\javax.activation\activation\jars\activation-1.1.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe\play-plugins-util_2.10\jars\play-plugins-util_2.10-2.2.0.jar;C:\Users\fadih.NEXPERIENCE\.ivy2\cache\com.typesafe.play\filters-helpers_2.10\jars\filters-helpers_2.10-2.3.9.jar
+Scala compilation took 4.353340586 s
+Attempting to call com.sun.tools.javac.api.JavacTool@3c802082 directly...
+Java compilation took 0.608552743 s
+Java analysis took 0.006661068 s
+Java compile + analysis took 0.627415154 s
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\controllers\routes.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\Token.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala source file has the following regular definitions changed:
+	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, ReverseAssets, notifyAll, isInstanceOf, <init>, at, ==, clone, toString, !=, getClass, ne, eq, ReverseApplication, ##, finalize, index, hashCode.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Hash.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\ExceptionFactory.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala source file has the following regular definitions changed:
+	notify, badRequest, wait, $asInstanceOf, routes, createInvoker, equals, prefix, asInstanceOf, documentation, controllers_Application_index0_invoker, synchronized, $isInstanceOf, handlerFor, _prefix, notifyAll, isInstanceOf, controllers_Assets_at1_invoker, <init>, controllers_Assets_at1_route, ==, clone, TaggingInvoker, Routes, toString, !=, fakeValue, getClass, setPrefix, cachedHandlerTags, controllers_Application_index0_route, ne, call, eq, defaultPrefix, ##, finalize, hashCode.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala: Set(prefix, _prefix, <init>, Routes, getClass, defaultPrefix)
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\AppException.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\controllers\Application.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+None of the modified names appears in C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_reverseRouting.scala. This dependency is not being considered for invalidation.
+None of the modified names appears in C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\src_managed\main\routes_routing.scala. This dependency is not being considered for invalidation.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\utils\Mail.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+Invalidating C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java...
+Invalidating (transitively) by inheritance from C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java...
+Initial set of included nodes: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java)
+Invalidated by transitive inheritance dependency: Set(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java)
+The C:\onlinePerfectSale\perfectSaleRepo\perfectSale\app\models\User.java source file has the following regular definitions changed:
+	.
+All member reference dependencies will be considered within this context.
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 6 s, completed 19:24:09 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@58de2a90, check cycles: false
+Total time: 0 s, completed 19:24:09 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@33fb4f99, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 19:24:10 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@52eb349b, check cycles: false
+Total time: 0 s, completed 19:24:10 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@441d239d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 19:24:12 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@2c0ad6b4, check cycles: false
+Total time: 0 s, completed 19:24:16 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@22037ff9, check cycles: false
+Total time: 0 s, completed 19:24:18 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@450be4b3, check cycles: false
+Total time: 0 s, completed 19:24:18 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2425eee7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\application.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\application.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\cloudbees.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\cloudbees.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\mail.conf.example,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\mail.conf.example)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.en,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.en)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.fr,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.fr)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\routes,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\routes)
+Read from stdout: CoffeeScript compiling on 1 source(s)
+CoffeeScript compiling on 1 source(s)
+Read from stdout: LESS compiling on 1 source(s)
+LESS compiling on 1 source(s)
+Total time: 3 s, completed 19:24:27 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@399c2a30, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\application.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\application.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\cloudbees.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\cloudbees.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\mail.conf.example,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\mail.conf.example)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.en,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.en)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.fr,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.fr)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\routes,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\routes)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions\default,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions\default)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions\default\1.sql,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 19:24:38 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@79e5c9d3, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 19:26:28 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@770632ce, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed 19:26:32 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/onlinePerfectSale/perfectSaleRepo/perfectSale/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@18b89e10, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\application.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\application.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\cloudbees.conf,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\cloudbees.conf)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\mail.conf.example,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\mail.conf.example)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.en,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.en)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\messages.fr,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\messages.fr)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\routes,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\routes)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions\default,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions\default)
+	(C:\onlinePerfectSale\perfectSaleRepo\perfectSale\conf\evolutions\default\1.sql,C:\onlinePerfectSale\perfectSaleRepo\perfectSale\target\scala-2.10\classes\evolutions\default\1.sql)
+Total time: 0 s, completed 19:26:37 02/12/2015
+> server-post-command-cleanup
+> server-handle-next-server-request
