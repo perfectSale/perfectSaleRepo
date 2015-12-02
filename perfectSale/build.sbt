@@ -12,7 +12,10 @@ libraryDependencies ++= Seq(
   cache,
   "org.mindrot" % "jbcrypt" % "0.3m",
   "com.typesafe" %% "play-plugins-mailer" % "2.2.0",
-  filters
+  filters,
+  "org.webjars" % "jquery" % "2.1.1",
+  "org.webjars" % "bootstrap" % "3.3.1",
+  "mysql" % "mysql-connector-java" % "5.1.25"
 )
 
 resolvers ++= Seq(
